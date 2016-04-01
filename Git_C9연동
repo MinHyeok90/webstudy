@@ -1,4 +1,5 @@
 git - c9 연동방법
+  https://www.youtube.com/watch?v=BWGTZ3NXawA
 
 목차
   1.git을 c9으로 끌어오기
@@ -43,8 +44,8 @@ git - c9 연동방법
     아래의 다른 화살표들은 git -> c9 할 때 자동으로 동작한다.
 
 4.git에 대하여 더 배우기
-  1) http://learnbranch.urigit.com/
-  2) codecademy.com에 learn git이 있다.
+  1) http://learnbranch.urigit.com/   시각적으로 잘 설명되어있다.
+  2) codecademy.com에 learn git       사용
 
 //내 생각
 c9에서 프로젝트 만들 때 깃허브 url을 넣으면, rails g controller AAA 이 내용을 넣지 않아도 되는 것 아닐까?
