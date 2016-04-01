@@ -1,0 +1,8 @@
+git - c9 연동방법
+1.git을 c9으로 끌어오기
+2.c9을 git으로 올리기
+
+1.git -> c9
+  c9.io에 접속하면 메뉴바에 Workspace, Shared with me, [Repositories]가 있다. 여기서 []를 누르면 Git에 만들어둔 나의 저장소들이 보이는데
+  여기서  Clone to edit버튼을 누르면 c9으로 가져오는 것이다.
+  클릭하면 새로운 프로젝트를 만드는 것과 동일하다. 차이점은 Git URL이 이미 입력되어 있다는 것.
