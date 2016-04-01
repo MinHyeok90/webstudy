@@ -4,6 +4,7 @@ git - c9 연동방법
   1.git을 c9으로 끌어오기
   2.c9을 git으로 올리기
   3.git개념
+  4.git에 대하여 더 배우기
 
 1.git -> c9
   c9.io에 접속하면 메뉴바에 Workspace, Shared with me, [Repositories]가 있다. 여기서 []를 누르면 Git에 만들어둔 나의 저장소들을 볼 수 있다.
@@ -13,11 +14,13 @@ git - c9 연동방법
     단 Git에 저장된 프로젝트가 c9에서 설정가능한 프로젝트여야 한다.
     예를들어 readme파일만 있다면, 당연히 불가능하다.
     
+    
 2. c9 -> git
   1.c9프로젝트를 생성한다.
   2.git에서 New repository를 하여 이름을 넣는다.
     저장소 이름 외에 아무 설정도 하지 않고서 만든다. 그러면 git을 연결하는 commend 들이 적힌 빈 저장소가 하나 생성된다.
-    이하 명령어와 설명.
+  
+  이하 c9 터미널에 작성해야 할 명령어와 설명.
     git init                          : 해당 프로젝트에 git을 초기화한다.
     git add 파일명 혹은 .             : commit하기 전, 변경된 파일들을 준비한다(=포장한다). (.)점을 입력하면 프로젝트의 모든 파일을 준비한다.
     git commit -m "first commit"      : 위에서 묶은 변경된 파일들을 commit 한다. 그러나 해당 컴퓨터와 git은 연결되어 있지 않으므로,
@@ -26,9 +29,23 @@ git - c9 연동방법
                                       : git에 명령을 주어 실제로 commit한 모든 사항이 git에 업로드되도록 명령한다.
     git push -u origin master         : git push만 작성해도 된다. git에 가입한 계정을 입력하면 업로드가 끝난다. 
 
+
 3.git 개념
+  http://i.stack.imgur.com/MgaV9.png 여기의 이미지를 기준으로 설명한다.
+  각 저장소를 기준으로 보자.
+    workspace : c9
+    local repository : c9의 컴퓨터
+    remote repository : git 컴퓨터
+    
+    add하면 commit의 준비가 된다. (인덱싱)
+    commit하면 local에 저장된다.  
+    push를 하면 지금까지의 모든 commit이 한번에 전송된다.
+    아래의 다른 화살표들은 git -> c9 할 때 자동으로 동작한다.
 
-
+4.git에 대하여 더 배우기
+  1) http://learnbranch.urigit.com/
+  2) codecademy.com에 learn git이 있다.
 
 //내 생각
-3.c9에서 프로젝트 만들 때 깃허브 url을 넣으면, rails g controller AAA 이 내용을 넣지 않아도 되는 것 아닐까?
+c9에서 프로젝트 만들 때 깃허브 url을 넣으면, rails g controller AAA 이 내용을 넣지 않아도 되는 것 아닐까?
+나중에 시도해봐야겠다.
