@@ -45,6 +45,7 @@ git - c9 연동방법
 
 4.git에 대하여 더 배우기
   1) http://learnbranch.urigit.com/   시각적으로 잘 설명되어있다.
+    초급문제 5개는 적절한데, 중급문제 2번은...? 상급문제에서 배우는 rebase -i와 cherry-pick, 그리고 commit --amend 를 먼저 배우고 나서 푸는게 맞다.
   2) codecademy.com에 learn git       사용
 
 //내 생각
