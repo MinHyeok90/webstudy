@@ -43,3 +43,13 @@ Merge 시 충돌이 발생한다면?
   beyound confair
   git mergetool / difftool
   
+git log : 현재 head로부터의 모든 commit log 모아보기.
+git branch -> 현재 존재하는 브랜치들 *:해드드
+git diff 브랜치명 -> 각 브랜치에 있는 파일들의 차이점을 보여준다.ㄴ
+
+source tree
+stree.
+
+vi a.txt
+
+git log --oneline : 한줄로 표시
